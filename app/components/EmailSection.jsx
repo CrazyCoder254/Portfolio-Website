@@ -55,28 +55,28 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2 mt-10">
         <Link target="_blank" href="https://github.com/CrazyCoder254">
-          <img 
-            src="/images/github.svg" 
-            alt="GitHub Icon" 
-            width={100} 
-            height={100} 
-            style={{ 
-              display: 'block', 
-              margin: '0 auto', 
+          <Image
+              src="/images/github.svg"  // Ensure the image is in the public folder or use an absolute URL
+              alt="GitHub Icon"
+              width={100}
+              height={100}
+              style={{
+              display: 'block',
+              margin: '0 auto',
               filter: 'brightness(2)',  // Increase brightness
               backgroundColor: 'white', // Add a light background color
               padding: '5px',           // Optional: Padding for the background
-              borderRadius: '8px'       // Optional: Rounded corners
-            }} 
+              borderRadius: '8px',      // Optional: Rounded corners
+            }}
           />
         </Link>
         <Link target="_blank" href="https://www.linkedin.com/in/ken-kiragu-774a04296/">
-          <img 
-            src="/images/linkedin.svg" 
-            alt="LinkedIn Icon" 
-            width={100} 
-            height={100} 
-            style={{ 
+          <Image 
+              src="/images/linkedin.svg" 
+              alt="LinkedIn Icon" 
+              width={100} 
+              height={100} 
+              style={{ 
               filter: 'brightness(1.7)', 
               display: 'block', 
               margin: '30px auto 0 auto'

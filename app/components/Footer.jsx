@@ -18,7 +18,9 @@ const Footer = () => {
               padding: '5px',           
               borderRadius: '8px'       
             }} 
-          /></span>
+          />
+              <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=5584802" style='border:none;'></iframe>
+            </span>
             <p className='text-slate-600'>All rights reserved.</p>
         </div>
     </footer>

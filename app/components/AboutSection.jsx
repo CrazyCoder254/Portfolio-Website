@@ -37,6 +37,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-2'>
                 <li>Cisco Certified Network Associate</li>
                 <li>Hacker Rank Certified</li>
+                <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=5584802" style='border:none;'></iframe>
             </ul>
         )
     },
